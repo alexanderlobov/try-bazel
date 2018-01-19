@@ -1,5 +1,5 @@
 This repo is for experimenting with bazel build system.
-I also use it to create miniman examples and reporting issues.
+I also use it to create minimal examples and reporting issues.
 
 This repo is used in the following issues:
 
