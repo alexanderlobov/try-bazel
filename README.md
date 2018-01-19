@@ -3,5 +3,5 @@ I also use it to create minimal examples and reporting issues.
 
 This repo is used in the following issues:
 
-https://github.com/bazelbuild/bazel/issues/4480
-https://github.com/bazelbuild/bazel/issues/4479
+* https://github.com/bazelbuild/bazel/issues/4480
+* https://github.com/bazelbuild/bazel/issues/4479
