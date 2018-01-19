@@ -1,0 +1,11 @@
+# cc_import(
+#     name = "lib",
+#     shared_library = "libpython3.6m.so",
+#     visibility = ["//app:__pkg__"],
+# )
+
+cc_library(
+    name = "lib",
+    srcs = ["libpython3.6m.so"],
+    visibility = ["//app:__pkg__"],
+)
