@@ -1,0 +1,5 @@
+cc_import(
+    name = "lib",
+    shared_library = "libpython3.6m.dylib",
+    visibility = ["//app:__pkg__"],
+)
