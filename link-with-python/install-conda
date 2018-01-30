@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# mkdir build
+cd build
+# wget repo.continuum.io/miniconda/Miniconda3-4.3.31-MacOSX-x86_64.sh
+bash Miniconda3-4.3.31-MacOSX-x86_64.sh -b -p anaconda

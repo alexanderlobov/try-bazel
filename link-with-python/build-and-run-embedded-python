@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+py_path=build/anaconda/install
+binary=build/embedded-python
+gcc hello.cpp $py_path/lib/libpython3.6m.dylib \
+    -I $py_path/include/python3.6m \
+    -Wl,-rpath,$py_path/lib \
+    -o $binary
+otool -L $binary
+otool -l $binary | grep -A2 PATH
+./$binary
